@@ -1,0 +1,236 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400; 
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+background-color: #003135;
+color: white;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Futura", sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(247, 217, 50);
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 60px;
+    text-align: center;
+}
+
+.header-banner h1 {
+    font-size: 3rem;  
+    font-weight: 700;  
+    margin: 0;        
+    text-align: center; 
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #7c9885;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%
+}
+
+.nav-links li {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.nav-links a.active{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.50rem 1.25rem;
+    border-radius: 6px; 
+}
+.contact-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7c9885;
+    color: white;
+    padding: 1.5rem 2.0rem;
+}
+
+.footer-label {
+    font-style: italic;
+    color: #cccccc;
+    font-size: 0.9rem; 
+    margin-bottom: 0.3rem; 
+}
+
+.footer-column p {
+    margin: 0.3rem 0;
+}
+
+.style-button{
+    font-size:20px;
+    border-radius: 6px;
+    padding:5px;
+    margin-top: 4px;
+    background-color: goldenrod;
+    color: white;
+    border: 2px solid black;
+}
+
+#landing-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    padding:2rem;  
+}
+
+#headshot{
+    width: 555px;
+    height: 800px;
+    border-radius: 8px;    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border: solid 6px #7c9885;
+}
+#headshot-description{
+    border: solid 6px rgb(183, 182, 182);
+    border-radius: 6px;
+}
+/* #headshot-box{
+    width: max-content;     
+    height: auto;       
+    background-color: #0FA4AF;
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; 
+    padding: 30px;
+
+} */
+
+.header-banner{
+    width: 100%;        
+    background-color: #0FA4AF;
+    color: white;
+    padding: 1.5rem 1.5rem; 
+    box-sizing: border-box;
+}
+
+.header-banner h1 {
+    font-size: 3rem;  
+    font-weight: 700;  
+    margin: 0;        
+    text-align: center; 
+}
+
+#landing-content p{
+    margin: 15px; 
+    font-size: 1.65rem;
+    font-weight: 300;
+    text-indent: 30px;
+}
+
+#landing-content a{
+    color: gold;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-image img{
+    width: 80%; 
+    height: auto;
+    border-radius: 12px;
+    margin:10px auto;
+    border: 5px solid #0FA4AF;
+    display: block;
+}
+
+.project-description{
+    width: 70%;       
+    background-color: #0FA4AF;
+    color: white;
+    padding: 1.5rem 1.5rem; 
+    box-sizing: border-box;
+    border-radius: 8px; 
+    margin: 10px;
+    border: solid 6px rgb(183, 182, 182)
+}
+
+/* .project.service{
+    flex-direction: row-reverse;
+} */
+
+.project-description p {
+    font-size: 1.25rem;
+    text-indent: 30px;
+}
+
+#qualification-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start ;
+    gap:2rem;
+
+}
+
+#resume{
+    display: block; 
+    margin: 8px;
+    width: 750px;
+    height: 1000px;
+    border: 15px solid #0FA4AF;
+    border-radius: 16px;
+    margin-bottom:24px;
+
+}
+
+.description{
+    flex:1;
+    min-width: 300px;       
+    background-color: #0FA4AF;
+    color: white;
+    padding: 1.5rem 1.5rem; 
+    box-sizing: border-box;
+    border-radius: 8px; 
+    margin: 8px;
+    border: solid 6px rgb(183, 182, 182)
+}
+
+.description p{
+    font-size: 1.25rem;
+    text-indent: 30px;
+}
+

@@ -1,2 +1,2 @@
-# CSCE412-Static-Website
-CSCE412 Static Website based on CSCE 331 personal website
+# project1-seasonedpepper
+CSCE 331 Project 1: Arthur Nguyen 

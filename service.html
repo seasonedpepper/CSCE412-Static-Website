@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Arthur Nguyen Webpage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link id = "style" type="text/css" rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<nav class = "navbar">
+  <ul class = "nav-links">
+    <li><a href="index.html">Landing</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="qualifications.html">Qualifications</a></li>
+    <li><a href="service.html" class="active">Service</a></li>
+    <li><a href="genai.html">Gen AI</a></li>
+    <li><button class="style-button"onclick="toggleStyle()">Toggle Layout</button></li>
+      <script>
+        function toggleStyle() {
+            let style = document.getElementById('style');
+            if (style.getAttribute('href') == 'styles.css') {
+                style.setAttribute('href', 'styles2.css');
+            } else {
+                style.setAttribute('href', 'styles.css');
+            }
+        }
+      </script>
+    </ul>
+</nav>
+
+</br>
+
+<h1 class='title'> Services </h1>
+<div class="project">
+    <div class="project-image">
+      <img id="tutor-children" src="images/tutoringChildren.jpg">
+    </div>
+    <div class="project-description">
+      <H2> Tutoring Elementary Students</H2>
+    <p> Over the years, I have volunteered to teach the younger generation, under <a href="https://www.caterpillarministries.org/">Caterpillar Ministries</a>, specifically in disadvantaged communities. I dedicate time to teaching to help introduce them to technology and problem-solving skills while polishing their basic knowledge.</p>
+    <p>Mentorship and education are deeply important to me, as they help spark curiosity and create opportunities for the next generation. These children might have not had the same opportunities I did, but with a little help, I believe they would grow even better than I did.</p>
+    </div>
+</div>
+
+<div class="project service">
+    <div class="project-image">
+      <img id="big-event" src="images/bigEvent.jpeg">
+    </div>
+    <div class="project-description">
+      <H2> Community Clean-Up </H2>
+      <p> I actively participate in large-scale community service projects such as <a href="https://bigevent.tamu.edu/">Texas A&M's Big Event</a>, where students unite to give back to the surrounding Bryan-College Station community.  </p>
+      <p> Projects like these that give back to the community or help clean up the environment are essential and represent the good will in humanity. </p>
+    </div>
+</div>
+
+<footer class="contact-footer">
+  <div class = "footer-column">
+    <p class="footer-label">Name</p>
+    <p>Arthur Nguyen </p>
+  </div>
+  <div class = "footer-column">
+    <p class="footer-label">Personal Email</p>
+    <p>arthurnguyen005@gmail.com</p>
+    <p class="footer-label">School Email</p>
+    <p>arthur.nguyen0629@tamu.edu</p>
+  </div>
+  <div class = "footer-column">
+    <p class="footer-label">Contact Number</p>
+    <p>945-245-0083</p>
+  </div>
+</footer>
+
+
+</body>
+</html>

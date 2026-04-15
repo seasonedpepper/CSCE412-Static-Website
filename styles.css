@@ -1,0 +1,210 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; 
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.title{
+    font-size: 60px;
+    text-align: center;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: maroon;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%
+}
+
+.nav-links li {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: gold;
+}
+
+.nav-links a.active{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.50rem 1.25rem;
+    border-radius: 6px; 
+}
+
+#landing-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding:2rem;  
+}
+
+#headshot{
+    width: 555px;
+    height: 800px;
+    border-radius: 50% / 50%;    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+#headshot-box{
+    width: max-content;     
+    height: auto;       
+    background-color: brown;
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; 
+    padding: 30px;
+
+}
+
+.header-banner{
+    width: 100%;        
+    background-color: brown;
+    color: white;
+    padding: 1.5rem 1.5rem; 
+    box-sizing: border-box;
+    border-radius: 8px; 
+}
+
+.header-banner h1 {
+    font-size: 3rem;  
+    font-weight: 700;  
+    margin: 0;        
+    text-align: center; 
+}
+
+#landing-content p{
+    margin: 15px; 
+    font-size: 1.65rem;
+    font-weight: 300;
+    text-indent: 30px;
+}
+
+#landing-content a{
+    color: goldenrod;
+}
+
+
+.contact-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: maroon;
+    color: white;
+    padding: 1.5rem 2.0rem;
+}
+
+.footer-label {
+    font-style: italic;
+    color: #cccccc;
+    font-size: 0.9rem; 
+    margin-bottom: 0.3rem; 
+}
+
+.footer-column p {
+    margin: 0.3rem 0;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.project.portfolio {
+  flex-direction: row-reverse;
+}
+
+.project-image img{
+    width: 800px; 
+    height: auto;
+    border-radius: 12px;
+    margin:10px;
+    border: 5px solid brown;
+}
+
+.project-description{
+    width: 80%;       
+    max-width: 800px; 
+    background-color: brown;
+    color: white;
+    padding: 1.5rem 1.5rem; 
+    box-sizing: border-box;
+    border-radius: 8px; 
+    margin: 10px auto;
+}
+
+.project-description p {
+    font-size: 1.25rem;
+    text-indent: 30px;
+}
+
+
+#resume{
+    display: block; 
+    margin: 0 auto;
+    width: 1500px;
+    height: 1000px;
+    border: 15px solid brown;
+    border-radius: 16px;
+}
+
+.description{
+    width: 94%;       
+    background-color: brown;
+    color: white;
+    padding: 1.5rem 1.5rem; 
+    box-sizing: border-box;
+    border-radius: 8px; 
+    margin: 16px auto;
+}
+
+.description p{
+    font-size: 1.25rem;
+    text-indent: 30px;
+}
+
+.style-button{
+    font-size:20px;
+    border-radius: 6px;
+    padding:5px;
+    margin-top: 4px;
+    background-color: black;
+    color: white;
+    border: 2px solid goldenrod;
+}
